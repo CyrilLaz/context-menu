@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Context-menu</title>
+    
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./normalize.css" />
+</head>
+<body class="page">
+    <div class="page__container">
+        <header class="header">header</header>
+        <main class="content">
+            <ul class="cards">
+                <li class="cards__item"><img class="cards__picture" src="https://pictures.s3.yandex.net/frontend-developer/cards-compressed/baikal.jpg" alt="Картинка с названием &quot;Байкал&quot;"></li>
+                <li class="cards__item"><img class="cards__picture" src="https://pictures.s3.yandex.net/frontend-developer/cards-compressed/kholmogorsky-rayon.jpg" alt="Картинка с названием &quot;Холмогорский район&quot;"></li>
+            </ul>
+       <!--     -->
+        </main>
+        <nav class="context-menu">
+            <ul class="context-menu__list">
+                <li class="context-menu__item"><button class="context-menu__button context-menu__command">копировать</button></li>
+                <li class="context-menu__item"><button class="context-menu__button context-menu__command">вставить</button></li>
+                <li class="context-menu__item"><button class="context-menu__button context-menu__command">удалить</button></li>
+            </ul>
+            <ul class="context-menu__buttons">
+                <li class="context-menu__item"><button class="context-menu__button context-menu__thumb context-menu__thumb_type_up"></button></li>
+                <li class="context-menu__item"><button class="context-menu__button context-menu__thumb context-menu__thumb_type_down"></button></li>
+            </ul>
+        </nav>
+        <footer class="footer">footer</footer>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
